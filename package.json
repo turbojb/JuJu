@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/turbojb/JuJu/issues"
   },
-  "homepage": "https://github.com/turbojb/JuJu#readme"
+  "homepage": "https://github.com/turbojb/JuJu#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
