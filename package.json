@@ -18,5 +18,9 @@
   "homepage": "https://github.com/turbojb/JuJu#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "engines" : {
+    "node" : ">=15.12.0"
   }
 }
+
