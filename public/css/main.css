@@ -1,0 +1,161 @@
+
+@media (min-width: 576px) {
+    .side-bars {
+        border-left: 1px solid #D2D2D2;
+        border-right: 1px solid #D2D2D2;
+        border-width: thin;
+    }
+
+    .side-bar {
+        display: block !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .side-bar {
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
+
+
+@font-face {
+    font-family: openSansRegular;
+    src: url("/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url("/fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+#main {
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: openSansRegular;
+    color: #1a1818;
+    font-weight: bold;
+}
+
+.no-max-with {
+    max-width: 2300px !important;
+}
+
+.name-header {
+    padding: 15px;
+    text-align: center;
+    font-family: openSansBold;
+    text-transform: uppercase;
+    display: block;
+    color: #1a1818;
+    font-size: 24px;
+}
+
+.info-container {
+    width: 100%;
+    max-width: 568px;
+}
+
+.info {
+    width: 100%;
+    font-family: openSansRegular;
+    font-size: 12px;
+    color: #1a1818;
+}
+
+.skill {
+    font-size: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pad-top {
+    padding-top: 15px;
+}
+
+.bold {
+    font-family: openSansBold;
+}
+
+.client {
+    font-size: 14px;
+    padding-top: 7px;
+
+}
+
+.work-samples {
+    display: block;
+    width: 100%;
+}
+
+.side-bar {
+    display: none;
+}
+
+.side-bar .name {
+    display: block;
+    padding-top: 15px;
+    color: #B4B4B4;
+    text-underline: none;
+    font-size: 14px;
+}
+
+.side-bar .back {
+    display: block;
+    padding-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links {
+    padding-top: 15px;
+}
+
+.links .link {
+    font-size: 14px;
+}
+
+.links .active {
+    color: #0091AC;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.client-heading {
+    font-size: 21px;
+    color: #000000;
+}
+
+.project-task {
+    font-family: openSansRegular;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.project-info {
+    padding-top: 15px;
+}
+
+.project-info .pinfo {
+    font-size: 12px;
+}
+
+.project-info .pinfo .blue {
+    font-size: 12px;
+    color: #0091AC;
+}
+
+.project-image {
+    padding-top: 15px;
+}
