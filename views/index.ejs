@@ -4,128 +4,25 @@
 
     <body>
         <div id="main">
-            <span class="name-header">Ju Al Youm</span>
-            <div class="container info-container">
-                <div class="row">
-                    <div class="col-sm text-center info">
-                        Senior Visual/UI Designer
-                    </div>
-                    <div class="col-sm text-center info">
-                        <div class="side-bars">
-                            917 407 9612
-                        </div>
-                    </div>
-                    <div class="col-sm text-center info">
-                        jualry@gmail.com
-                    </div>
-                </div>
-            </div>
+            <%- include('partials/_ju') %>
+
             <div class="pad-top"></div>
-            <div class="container pad-top">
-                <div class="row">
-                    <div class="col-sm text-center skill">
-                        UI
-                    </div>
-                    <div class="col-sm text-center skill">
-                        Infographics
-                    </div>
-                    <div class="col-sm text-center skill">
-                        Graphic Design
-                    </div>
-                    <div class="col-sm text-center skill">
-                        Art Direction
-                    </div>
-                    <div class="col-sm text-center skill">
-                        White baby
-                    </div>
-                </div>
-            </div>
-            <div class="pad-top"></div>
-            <div class="pad-top"></div>
+
             <div class="container work-samples">
                 <div class="row">
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="/rocco">
-                                <img src="/images/Private_homepage/Rocco_DiSpirito.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Rocco DiSpirito</p>
+                    <% for(let client in clients) { %>
+                        <div class="col-sm-6 col-md-3 col-xl-3 pad-top">
+                            <div class="text-center">
+                                <a href="/<%= client %>">
+                                    <img src="<%= clients[client].homePageImage %>%>" alt="" class="img-fluid" />
+                                </a>
+                                <p class="client"><%= clients[client].fullName %></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Green_Valley.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Green Valley</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Green_Valley.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Platinum jewelry</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Zep.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Zep</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Green_Valley.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Mint-X</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/PayPal.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">PayPal</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/PayPal.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Pathway Genomics</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Giveaways.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Giveaways</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Giveaways.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Infographics</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 pad-top">
-                        <div class="text-center">
-                            <a href="">
-                                <img src="/images/Private_homepage/Iconography.jpg" alt="" class="img-fluid" />
-                            </a>
-                            <p class="client">Iconography</p>
-                        </div>
-                    </div>
+                    <% } %>
                 </div>
             </div>
+
             <div class="pad-top"></div>
             <div class="pad-top"></div>
             <div class="pad-top"></div>

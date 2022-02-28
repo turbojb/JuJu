@@ -1,0 +1,41 @@
+<div class="section" id="image-section-<%= section.id %>" style="<%= section.active === true ? '' : 'display:none;' %>">
+    <% let count = 0 %>
+    <% for(const subSection of section.subSections) { %>
+
+        <div class="image-info" id="image-info-<%= subSection.id %>" style="<%= count === 0 ? '' : 'display:none;' %>">
+            <div class="project-task">
+                <span class="bold">Project Task:</span> <%= subSection.task %>
+            </div>
+            <div class="row task-row">
+                <div class="col-4 pinfo">
+                    <span class="bold">Role:</span> <%= subSection.role %>
+                </div>
+                <div class="col-4 pinfo side-bars">
+                    <span class="bold">Timeline:</span> <%= subSection.timeLine %>
+                </div>
+                <div class="col-4 pinfo">
+                    <span class="blue"><%= section.name %></span>
+                </div>
+            </div>
+        </div>
+
+        <% count = count + 1 %>
+    <% } %>
+
+    <div class="project-info">
+        <div class="project-image-wrapper" id="project-image-wrapper-<%= section.id %>">
+            <div class="row">
+                <% count = 0 %>
+                <% for(const subSection of section.subSections) { %>
+                    <div class="col-12">
+                        <div class="pad-top"></div>
+                        <div class="project-image">
+                            <img src="<%= subSection.imageDesktop %>" class="img-fluid" />
+                        </div>
+                    </div>
+                    <% count = count + 1 %>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>

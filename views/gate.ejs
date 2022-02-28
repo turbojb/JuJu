@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/_header') %>
+
+<body class="gray-bg">
+    <div class="white-bg">
+        <div id="main">
+            <%- include('partials/_ju') %>
+            <div class="pad-top"></div>
+            <div class="intro" id="intro">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+            </div>
+            <div class="pad-top"></div>
+            <div class="pad-top"></div>
+            <div class="pad-top"></div>
+            <div id="login" class="text-center" style="display:none">
+                <img src="/images/lock.png" class="lock" />
+                <div class="pad-top"></div>
+                <input class="pw-input" id="password" type="password" id="pw" name="pw" placeholder="Enter Password"/>
+                <div class="pad-top"></div>
+                <a href="javascript:void(0);" class="blue-button" onclick="login()">Submit</a>
+            </div>
+            <div class="pad-top"></div>
+            <div class="pad-top"></div>
+            <div class="pad-top"></div>
+        </div>
+    </div>
+    <div class="text-center offset-white-triangle">
+        <img src="/images/white_triangle.png" class="white-triangle"  />
+    </div>
+    <div class="text-center" id="show-login">
+        <div class="pad-top"></div>
+        <div class="pad-top"></div>
+        <a href="javascript:void(0);" class="blue-button" onclick="showLogin()">Access My Portfolio</a>
+    </div>
+</body>
+</html>

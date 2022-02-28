@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/_header') %>
+<body>
+<div id="main" class="no-max-with">
+    <div class="pad-top"></div>
+    <div class="pad-top"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 col-xl-3">
+                <div class="side-bar">
+                    <div class="name"><img src="/images/Ju_Al_Youm.svg" alt="Ju Al Youm" class="name-image" style="width:114px;" /></div>
+                    <a href="/" class="back">< BACK TO HOME</a>
+                    <div class="pad-top"></div>
+                    <div class="links">
+                       <% for(const section of projectClient.sections) { %>
+                            <a href="javascript:void(0);" class="link bold <%= section.active ? "active" : "" %>" id="link-for-<%= section.id %>">
+                                <%= section.name %>
+                            </a>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-9 col-xl-9 main-images" id="main-section-<%= projectClient.name %>%>" style="">
+                <div class="pad-top"></div>
+                <div class="client-heading">
+                    <%= projectClient.fullName %>
+                </div>
+                <% for(const section of projectClient.sections) { %>
+                    <%- include('partials/_client_section', { section: section, projectClient: projectClient }) %>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const sections = <%- JSON.stringify(projectClient.sections) %>
+    const sectionsWithPages = new SectionsWithPages(sections)
+    sectionsWithPages.listenForClicks()
+</script>
+
+</body>
+</html>
