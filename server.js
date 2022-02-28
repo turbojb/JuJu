@@ -1,13 +1,15 @@
 const express       = require('express')
-const basicAuth     = require('express-basic-auth')
 const path          = require('path')
 const app           = express()
 const port          = process.env.PORT || 8080
 const clients       = require("./clients").clients
 const cookieSession = require('cookie-session')
 const bodyParser    = require('body-parser')
+const morgan        = require('morgan')
 
 const secret = process.env.SECRET
+
+app.use(morgan())
 
 app.set('view engine', 'ejs');
 
@@ -46,8 +48,19 @@ app.post('/login', (req, res) => {
 
 for(let client in clients) {
     app.get(`/${client}`, (req, res) => {
+        let projectClient = clients[client]
+        console.log(req.query.active)
+
+        if(req.query.active && projectClient.sections.map(s => s.name).includes(req.query.active)) {
+            projectClient.sections = projectClient.sections.map(s => {
+                if(s.name === req.query.active) s.active = true
+                else s.active = false
+                return s;
+            });
+        }
+
         if(req.session.loggedIn && req.session.loggedIn === true)
-            res.render(path.join(__dirname, `views/client`), { projectClient: clients[client]});
+            res.render(path.join(__dirname, `views/client`), { projectClient: projectClient});
         else
             res.redirect("/")
     })

@@ -251,3 +251,26 @@
     margin-top: 15px;
     padding-bottom: 100px;
 }
+
+.also-interested {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: openSansRegular;
+    padding-top: 45px;
+    color: #949494;
+}
+
+.thumbnail-copy {
+    font-size: 12px;
+    font-family: openSansRegular;
+    text-decoration: none;
+    padding-top: 7px;
+    color: #949494;
+}
+
+a {
+    text-decoration: none;
+}

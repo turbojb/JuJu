@@ -1,7 +1,6 @@
 <div class="section" id="image-section-<%= section.id %>" style="<%= section.active === true ? '' : 'display:none;' %>">
     <% let count = 0 %>
     <% for(const subSection of section.subSections) { %>
-
         <div class="image-info" id="image-info-<%= subSection.id %>" style="<%= count === 0 ? '' : 'display:none;' %>">
             <div class="project-task">
                 <span class="bold">Project Task:</span> <%= subSection.task %>
@@ -35,6 +34,31 @@
                     </div>
                     <% count = count + 1 %>
                 <% } %>
+            </div>
+        </div>
+    </div>
+
+    <div class="also-interested text-center">
+        You May Also be interested in
+
+        <div class="row">
+            <div class="col-6">
+                <div class="pad-top"></div>
+                <a href="/payPal">
+                    <img src="/images/thumbnails/paypal.png" class="img-fluid" />
+                    <p class="text-center thumbnail-copy">
+                        PayPal - Infographics
+                    </p>
+                </a>
+            </div>
+            <div class="col-6">
+                <div class="pad-top"></div>
+                <a href="/greenValley?active=<%= encodeURI("Social Content") %>">
+                    <img src="/images/thumbnails/greenvalley.png" class="img-fluid" />
+                    <p class="text-center thumbnail-copy">
+                        GreenValley - Landing Pages
+                    </p>
+                </a>
             </div>
         </div>
     </div>
