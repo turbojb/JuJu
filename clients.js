@@ -57,7 +57,17 @@ module.exports.clients = {
                         imageDesktop: "/images/Green_Valley/Green_Valley_Landing_Pages_03.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Landing_Pages_03.jpg"
                     }
-                    ]
+                    ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
+                ]
             },
             {
                 id: uuid(),
@@ -72,6 +82,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Green_Valley/Green_Valley_Social_Content_01.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Social_Content_01.jpg"
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -87,6 +107,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Green_Valley/Green_Valley_Emails_01.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Emails_01.jpg"
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -118,6 +148,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_03.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_ViralSweep_03.jpg"
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -155,6 +195,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03jpg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpg",
                     },
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -170,6 +220,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -207,6 +267,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Zep/Zep_Website_03.png",
                         imageMobile: "/images/Zep/Zep_Website_03.png",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -230,6 +300,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Zep/Zep_Emails_02.png",
                         imageMobile: "/images/Zep/Zep_Emails_02.png",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -275,6 +355,16 @@ module.exports.clients = {
                         imageDesktop: "/images/MintX/MintX_Website_04.jpg",
                         imageMobile: "/images/MintX/MintX_Website_04.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -290,6 +380,16 @@ module.exports.clients = {
                         imageDesktop: "/images/MintX/MintX_Social_Content_01.jpg",
                         imageMobile: "/images/MintX/MintX_Social_Content_01.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -327,6 +427,16 @@ module.exports.clients = {
                         imageDesktop: "/images/PayPal/PayPal_Landing_Pages_03.png",
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_03.png",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -342,6 +452,16 @@ module.exports.clients = {
                         imageDesktop: "/images/PayPal/PayPal_Social_Content_01.jpg",
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_01.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -371,6 +491,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Website_02.png",
                         imageMobile:  "/images/Pathway_Genomics/Pathway_Genomics_Website_02.png",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -386,6 +516,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpg",
                         imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -401,6 +541,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01.jpg",
                         imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -422,6 +572,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Giveaways/Dirty_Laundry_PeopleTV_Contest.jpg",
                         imageMobile:  "/images/Giveaways/Dirty_Laundry_PeopleTV_Contest.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -453,6 +613,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpg",
                         imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_03.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -468,6 +638,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
                         imageMobile:  "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             },
             {
@@ -483,6 +663,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Giveaways/Power_of_3D_Sweepstakes.gif",
                         imageMobile:  "/images/Giveaways/Power_of_3D_Sweepstakes.gif",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -528,6 +718,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Infographics/Infographics_04.jpg",
                         imageMobile:  "/images/Infographics/Infographics_04.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]
@@ -549,6 +749,16 @@ module.exports.clients = {
                         imageDesktop: "/images/Iconography/Iconography.jpg",
                         imageMobile:  "/images/Iconography/Iconography.jpg",
                     }
+                ],
+                alsoInterested: [
+                  {
+                    image: "/images/thumbnails/paypal.png",
+                    link: "/payPal"
+                  },
+                  {
+                    image: "/images/thumbnails/greenvalley.png",
+                    link: `greenValley?active=${encodeURI("Social Content")}`
+                  }
                 ]
             }
         ]

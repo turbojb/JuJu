@@ -6,13 +6,13 @@
                 <span class="bold">Project Task:</span> <%= subSection.task %>
             </div>
             <div class="row task-row">
-                <div class="col-4 pinfo">
+                <div class="pinfo text-left">
                     <span class="bold">Role:</span> <%= subSection.role %>
                 </div>
-                <div class="col-4 pinfo side-bars">
+                <div class="pinfo side-bars">
                     <span class="bold">Timeline:</span> <%= subSection.timeLine %>
                 </div>
-                <div class="col-4 pinfo">
+                <div class="pinfo">
                     <span class="blue"><%= section.name %></span>
                 </div>
             </div>
@@ -38,28 +38,25 @@
         </div>
     </div>
 
-    <div class="also-interested text-center">
-        You May Also be interested in
 
-        <div class="row">
-            <div class="col-6">
-                <div class="pad-top"></div>
-                <a href="/payPal">
-                    <img src="/images/thumbnails/paypal.png" class="img-fluid" />
-                    <p class="text-center thumbnail-copy">
-                        PayPal - Infographics
-                    </p>
-                </a>
-            </div>
-            <div class="col-6">
-                <div class="pad-top"></div>
-                <a href="/greenValley?active=<%= encodeURI("Social Content") %>">
-                    <img src="/images/thumbnails/greenvalley.png" class="img-fluid" />
-                    <p class="text-center thumbnail-copy">
-                        GreenValley - Landing Pages
-                    </p>
-                </a>
+    <% if(section.alsoInterested) { %>
+        <div class="also-interested text-center">
+            You May Also be interested in
+
+            <div class="row">
+                <% for(interested of section.alsoInterested) { %>
+                    <div class="col-6">
+                        <div class="pad-top"></div>
+                        <a href="<%= interested.link %>">
+                            <img src="<%= interested.image %>" class="img-fluid" />
+
+                            <p class="text-center thumbnail-copy">
+                                PayPal - Infographics
+                            </p>
+                        </a>
+                    </div>
+                <% } %>
             </div>
         </div>
-    </div>
+    <% } %>
 </div>

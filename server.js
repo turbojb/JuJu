@@ -49,12 +49,12 @@ app.post('/login', (req, res) => {
 for(let client in clients) {
     app.get(`/${client}`, (req, res) => {
         let projectClient = clients[client]
-        console.log(req.query.active)
 
         if(req.query.active && projectClient.sections.map(s => s.name).includes(req.query.active)) {
+            projectClient = JSON.parse(JSON.stringify(clients[client]))
+
             projectClient.sections = projectClient.sections.map(s => {
-                if(s.name === req.query.active) s.active = true
-                else s.active = false
+                s.active = s.name === req.query.active;
                 return s;
             });
         }

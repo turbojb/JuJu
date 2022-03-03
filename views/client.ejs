@@ -16,7 +16,7 @@
                             <div class="links">
                                <% for(const section of projectClient.sections) { %>
                                     <a href="javascript:void(0);" class="link bold <%= section.active ? "active" : "" %>" id="link-for-<%= section.id %>">
-                                        <%= section.name %>
+                                        <%= section.name %> <div class="arrow"></div>
                                     </a>
                                 <% } %>
                             </div>
