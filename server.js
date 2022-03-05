@@ -9,7 +9,7 @@ const morgan        = require('morgan')
 
 const secret = process.env.SECRET
 
-app.use(morgan())
+app.use(morgan('tiny'))
 
 app.set('view engine', 'ejs');
 

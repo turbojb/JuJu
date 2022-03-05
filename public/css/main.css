@@ -1,3 +1,7 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 @media (min-width: 576px) {
     .side-bars {
@@ -13,6 +17,15 @@
     .right-bar {
         border-right: 1px solid #D2D2D2 !important;
     }
+
+    .hide-mobile {
+        display: block !important;
+    }
+
+    .hide-desktop {
+        display: none !important;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -183,8 +196,14 @@
     width: 100%;
 }
 
-.side-bar {
-    display: none;
+.side-bar {}
+
+.hide-desktop {
+    display: block;
+}
+
+.hide-mobile {
+    display:none;
 }
 
 .right-bar {

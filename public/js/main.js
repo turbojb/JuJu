@@ -14,7 +14,7 @@ class SectionsWithPages {
             $(`#project-image-wrapper-${section.id}`).on("scroll", () => {
                 const images =
                     $(`#project-image-wrapper-${section.id}`)
-                        .find("img")
+                        .find(".project-image")
                         .toArray()
                         .map((image, index) => {
                             return {
