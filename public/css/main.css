@@ -44,12 +44,16 @@
 
 @font-face {
     font-family: openSansRegular;
-    src: url("/fonts/OpenSans/OpenSans-Regular.ttf");
+    src: url("/fonts/OpenSans/OpenSans-Regular.otf") format('opentype'),
+         url("/fonts/OpenSans/OpenSans-Regular.ttf") format('truetype');
+    font-style: normal;
 }
 
 @font-face {
     font-family: openSansBold;
-    src: url("/fonts/OpenSans/OpenSans-Bold.ttf");
+    src: url("/fonts/OpenSans/OpenSans-Bold.otf") format('opentype'),
+         url("/fonts/OpenSans/OpenSans-Bold.ttf") format('truetype');
+    font-style: normal;
 }
 
 #main {
