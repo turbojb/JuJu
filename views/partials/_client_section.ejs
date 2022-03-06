@@ -51,7 +51,9 @@
                             <img src="<%= interested.image %>" class="img-fluid" />
 
                             <p class="text-center thumbnail-copy">
-                                PayPal - Infographics
+                                <% if(interested.copy) { %>
+                                    <%= interested.copy %>
+                                <%  } %>
                             </p>
                         </a>
                     </div>

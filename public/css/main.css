@@ -113,6 +113,7 @@
     text-decoration: none;
     cursor: pointer;
     padding: 7px 15px;
+    min-width: 136px;
 }
 
 .blue-button:hover {
@@ -152,6 +153,11 @@
 .name-image {
     width: 100%;
     max-width: 200px;
+
+}
+
+.reduce-opacity {
+    opacity: 0.3;
 }
 
 .info-container {
@@ -292,6 +298,7 @@
 
 .project-image {
     padding: 15px;
+    padding-left: 0px;
 }
 
 .project-image-wrapper {
@@ -307,7 +314,7 @@
     width: 100%;
     max-width: 350px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     font-family: openSansRegular;
     padding-top: 45px;
     color: #949494;

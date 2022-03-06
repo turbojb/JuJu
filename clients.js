@@ -16,11 +16,40 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "UI, graphic design",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_01.jpg",
-                        imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_01.jpg"
-                    }
-                ]
+                        imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg",
+                        imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg"
+                    },
+                  {
+                    id: uuid(),
+                    task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
+                    role: "UI, graphic design",
+                    timeLine: "4 Weeks",
+                    imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02.jpeg",
+                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02.jpeg"
+                  },
+                  {
+                    id: uuid(),
+                    task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
+                    role: "UI, graphic design",
+                    timeLine: "4 Weeks",
+                    imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03.jpeg",
+                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03.jpeg"
+                  }
+                ],
+              alsoInterested: [
+                {
+                  image: "/images/thumbnails/pathway.jpeg",
+                  link: "/pathwayGenomics",
+                  copy: "Pathway Genomics - Website"
+                },
+                {
+                  image: "/images/thumbnails/dirtylaundry.jpeg",
+                  link: `/giveaways`,
+                  copy: "Show Us Your Dirty Laundry Contest"
+                }
+              ]
             }
+
         ]
     },
     greenValley: {
@@ -60,12 +89,14 @@ module.exports.clients = {
                     ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: "/zep",
+                    copy: "Zep - Website"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/rocco.jpeg",
+                    link: `/rocco`,
+                    copy: "Rocco DiSpirito - Website"
                   }
                 ]
             },
@@ -79,18 +110,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, Graphic design, illustration",
                         timeLine: "1-3 days each",
-                        imageDesktop: "/images/Green_Valley/Green_Valley_Social_Content_01.jpg",
-                        imageMobile: "/images/Green_Valley/Green_Valley_Social_Content_01.jpg"
+                        imageDesktop: "/images/Green_Valley/Green_Valley_Social_Content_01.jpeg",
+                        imageMobile: "/images/Green_Valley/Green_Valley_Social_Content_01.jpeg"
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/infographic.jpeg",
+                    link: "/infographics",
+                    copy: "Infographics"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/welchs.jpeg",
+                    link: `giveaways?active=${encodeURI("Welch's Fruit Snacks Contest")}`,
+                    copy: "Welch’s Fruit Snacks Recipe Maker"
                   }
                 ]
             },
@@ -104,18 +137,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, Graphic design, illustration",
                         timeLine: "1-3 days each",
-                        imageDesktop: "/images/Green_Valley/Green_Valley_Emails_01.jpg",
-                        imageMobile: "/images/Green_Valley/Green_Valley_Emails_01.jpg"
+                        imageDesktop: "/images/Green_Valley/Green_Valley_Emails_01.jpeg",
+                        imageMobile: "/images/Green_Valley/Green_Valley_Emails_01_mobile.jpeg"
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/pathway.jpeg",
+                    link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
+                    copy: "Pathway Genomics - Emails"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: `zep?active=${encodeURI("Emails")}`,
+                    copy: "Zep - Emails"
                   }
                 ]
             },
@@ -151,12 +186,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/pathway.jpeg",
+                    link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
+                    copy: "Pathway Genomics - Emails"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: `zep?active=${encodeURI("Emails")}`,
+                    copy: "Zep - Emails"
                   }
                 ]
             }
@@ -192,18 +229,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03jpg",
+                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpg",
                     },
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/paypal.jpeg",
+                    link: `/payPal`,
+                    copy: "PayPal - Landing Pages"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenvalley.jpeg",
+                    link: `/greenValley`,
+                    copy: "Green Valley - Landing Pages"
                   }
                 ]
             },
@@ -217,18 +256,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpg",
-                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpg",
+                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpeg",
+                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_mobile_01.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/pathway.jpeg",
+                    link: `/pathwayGenomics?active=${encodeURI("Social Content")}`,
+                    copy: "Pathway Genomics - Social Content "
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/dirtylaundry.jpeg",
+                    link: `/giveaways`,
+                    copy: "Show Us Your Dirty Laundry Contest"
                   }
                 ]
             }
@@ -248,34 +289,36 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Zep/Zep_Website_01.jpg",
-                        imageMobile: "/images/Zep/Zep_Website_01.jpg",
+                        imageDesktop: "/images/Zep/Zep_Website_01.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_01.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Zep/Zep_Website_02.png",
-                        imageMobile: "/images/Zep/Zep_Website_02.png",
+                        imageDesktop: "/images/Zep/Zep_Website_02.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_02.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Zep/Zep_Website_03.png",
-                        imageMobile: "/images/Zep/Zep_Website_03.png",
+                        imageDesktop: "/images/Zep/Zep_Website_03.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_03.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/rocco.jpeg",
+                    link: "/rocco",
+                    copy: "Rocco DiSpirito - Website"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/natgeo.jpeg",
+                    link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
+                    copy: "National Geographic Sweepstakes"
                   }
                 ]
             },
@@ -289,26 +332,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Zep/Zep_Emails_01.jpg",
-                        imageMobile: "/images/Zep/Zep_Emails_01.jpg",
-                    },
-                    {
-                        id: uuid(),
-                        task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
-                        role: "UI, Graphic Design",
-                        timeLine: "2 Weeks",
-                        imageDesktop: "/images/Zep/Zep_Emails_02.png",
-                        imageMobile: "/images/Zep/Zep_Emails_02.png",
+                        imageDesktop: "/images/Zep/Zep_Emails_01.jpeg",
+                        imageMobile: "/images/Zep/Zep_Emails_01.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/pathway.jpeg",
+                    link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
+                    copy: "Pathway Genomics - Emails"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenvalley.jpeg",
+                    link: `greenValley?active=${encodeURI("Emails")}`,
+                    copy: "Green Valley - Emails"
                   }
                 ]
             }
@@ -328,42 +365,44 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/MintX/MintX_Website_01.jpg",
-                        imageMobile: "/images/MintX/MintX_Website_01.jpg",
+                        imageDesktop: "/images/MintX/MintX_Website_01.jpeg",
+                        imageMobile: "/images/MintX/MintX_Website_01.jpeg",
                     },
+                  {
+                    id: uuid(),
+                    task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
+                    role: "Art direction, UI, Graphic design, Icons",
+                    timeLine: "4 Weeks",
+                    imageDesktop: "/images/MintX/MintX_Website_04.jpeg",
+                    imageMobile: "/images/MintX/MintX_Website_04.jpeg",
+                  },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/MintX/MintX_Website_02.jpg",
-                        imageMobile: "/images/MintX/MintX_Website_02.jpg",
+                        imageDesktop: "/images/MintX/MintX_Website_02.jpeg",
+                        imageMobile: "/images/MintX/MintX_Website_02.jpeg",
                     },
-                    {
-                        id: uuid(),
-                        task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
-                        role: "Art direction, UI, Graphic design, Icons",
-                        timeLine: "4 Weeks",
-                        imageDesktop: "/images/MintX/MintX_Website_03.jpg",
-                        imageMobile: "/images/MintX/MintX_Website_03.jpg",
-                    },
-                    {
-                        id: uuid(),
-                        task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
-                        role: "Art direction, UI, Graphic design, Icons",
-                        timeLine: "4 Weeks",
-                        imageDesktop: "/images/MintX/MintX_Website_04.jpg",
-                        imageMobile: "/images/MintX/MintX_Website_04.jpg",
-                    }
+                  {
+                    id: uuid(),
+                    task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
+                    role: "Art direction, UI, Graphic design, Icons",
+                    timeLine: "4 Weeks",
+                    imageDesktop: "/images/MintX/MintX_Website_03.jpeg",
+                    imageMobile: "/images/MintX/MintX_Website_03.jpeg",
+                  }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: "/zep",
+                    copy: "Zep - Website"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/platinum.jpeg",
+                    link: `/platinumJewelry`,
+                    copy: "Platinum Jewelry - Landing Pages"
                   }
                 ]
             },
@@ -377,18 +416,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/MintX/MintX_Social_Content_01.jpg",
-                        imageMobile: "/images/MintX/MintX_Social_Content_01.jpg",
+                        imageDesktop: "/images/MintX/MintX_Social_Content_01.jpeg",
+                        imageMobile: "/images/MintX/MintX_Social_Content_01_mobile.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/pathway.jpeg",
+                    link: `/pathwayGenomics?active=${encodeURI("Social Content")}`,
+                    copy: "Pathway Genomics - Social Content"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenvalley.jpeg",
+                    link: `greenValley?active=${encodeURI("Social Content")}`,
+                    copy: "Green Valley - Social Content"
                   }
                 ]
             }
@@ -430,12 +471,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/iconography.jpeg",
+                    link: "/iconography",
+                    copy: "Iconography"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/natgeo.jpeg",
+                    link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
+                    copy: "National Geographic Sweepstakes"
                   }
                 ]
             },
@@ -449,18 +492,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/PayPal/PayPal_Social_Content_01.jpg",
-                        imageMobile: "/images/PayPal/PayPal_Landing_Pages_01.jpg",
+                        imageDesktop: "/images/PayPal/PayPal_Social_Content_01.jpeg",
+                        imageMobile: "/images/PayPal/PayPal_Landing_Pages_01.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/mintx.jpeg",
+                    link: `/mintx?active=${encodeURI("Social Content")}`,
+                    copy: "Mint-X - Social Content"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/iconography.jpeg",
+                    link: `iconography?active=${encodeURI("Social Content")}`,
+                    copy: "Iconography"
                   }
                 ]
             }
@@ -494,12 +539,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/platinum.jpeg",
+                    link: "/platinumJewelry",
+                    copy: "Platinum Jewelry - Landing Pages"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/rocco.jpeg",
+                    link: `rocco`,
+                    copy: "Rocco DiSpirito - Website"
                   }
                 ]
             },
@@ -513,18 +560,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpg",
-                        imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpg",
+                        imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpeg",
+                        imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01_mobile.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/mintx.jpeg",
+                    link: `/mintx?active=${encodeURI("Social Content")}`,
+                    copy: "Mint-X - Social Content"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/paypal.jpeg",
+                    link: `paypal?active=${encodeURI("Social Content")}`,
+                    copy: "PayPal - Social Content"
                   }
                 ]
             },
@@ -538,18 +587,20 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01.jpg",
-                        imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01.jpg",
+                        imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01.jpeg",
+                        imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01_mobile.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: `/zep`,
+                    copy: "Zep - Website"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenValley.jpeg",
+                    link: `greenValley?active=${encodeURI("Emails")}`,
+                    copy: "Green Valley - Emails"
                   }
                 ]
             }
@@ -575,12 +626,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/natgeo.jpeg",
+                    link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
+                    copy: "National Geographic Sweepstakes"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/platinum.jpeg",
+                    link: `/platinumJewelry`,
+                    copy: "Platinum Jewelry - Landing Pages"
                   }
                 ]
             },
@@ -594,34 +647,36 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_01.jpg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_01.jpg",
+                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_02.jpg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_02.jpg",
+                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
-                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_03.jpg",
+                        imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
                     }
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/dirtylaundry.jpeg",
+                    link: "/giveaways",
+                    copy: "Show Us Your Dirty Laundry Contest"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/zep.jpeg",
+                    link: `/zep`,
+                    copy: "Zep - Website"
                   }
                 ]
             },
@@ -641,12 +696,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/infographic.jpeg",
+                    link: "/infographics",
+                    copy: "Infographics"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenvalley.jpeg",
+                    link: `greenValley?active=${encodeURI("Viral Sweep")}`,
+                    copy: "Green Valley - ViralSweep"
                   }
                 ]
             },
@@ -666,12 +723,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/infographic.jpeg",
+                    link: "/infographics",
+                    copy: "Infographics"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/natgeo.jpeg",
+                    link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
+                    copy: "National Geographic Sweepstakes"
                   }
                 ]
             }
@@ -721,12 +780,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/paypal.jpeg",
+                    link: "/paypal",
+                    copy: "PayPal - Landing Pages"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/greenvalley.jpeg",
+                    link: `greenValley`,
+                    copy: "Green Valley - Landing Pages"
                   }
                 ]
             }
@@ -752,12 +813,14 @@ module.exports.clients = {
                 ],
                 alsoInterested: [
                   {
-                    image: "/images/thumbnails/paypal.png",
-                    link: "/payPal"
+                    image: "/images/thumbnails/paypal.jpeg",
+                    link: "/paypal",
+                    copy: "PayPal - Landing Pages"
                   },
                   {
-                    image: "/images/thumbnails/greenvalley.png",
-                    link: `greenValley?active=${encodeURI("Social Content")}`
+                    image: "/images/thumbnails/infographic.jpeg",
+                    link: `/infographics`,
+                    copy: "Infographics"
                   }
                 ]
             }
