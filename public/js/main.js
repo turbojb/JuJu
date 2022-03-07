@@ -78,3 +78,9 @@ function login() {
         }
     });
 }
+
+$(document).ready(() => {
+  $("#password").on("keypress", e => {
+    if(e.which === 13) $("#submit-pw").click()
+  });
+});
