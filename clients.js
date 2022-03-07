@@ -17,7 +17,7 @@ module.exports.clients = {
                         role: "UI, graphic design",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg",
-                        imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg"
+                        imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_01_mobile.jpg"
                     },
                   {
                     id: uuid(),
@@ -25,7 +25,7 @@ module.exports.clients = {
                     role: "UI, graphic design",
                     timeLine: "4 Weeks",
                     imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02.jpeg",
-                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02.jpeg"
+                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02_mobile.jpg"
                   },
                   {
                     id: uuid(),
@@ -33,21 +33,24 @@ module.exports.clients = {
                     role: "UI, graphic design",
                     timeLine: "4 Weeks",
                     imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03.jpeg",
-                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03.jpeg"
+                    imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03_mobile.jpg"
                   }
                 ],
-              alsoInterested: [
-                {
-                  image: "/images/thumbnails/pathway.jpeg",
-                  link: "/pathwayGenomics",
-                  copy: "Pathway Genomics - Website"
-                },
-                {
-                  image: "/images/thumbnails/dirtylaundry.jpeg",
-                  link: `/giveaways`,
-                  copy: "Show Us Your Dirty Laundry Contest"
+              alsoInterested: {
+                  offsetCenter: true,
+                  links: [
+                    {
+                      image: "/images/thumbnails/pathway.jpeg",
+                      link: "/pathwayGenomics",
+                      copy: "Pathway Genomics - Website"
+                    },
+                    {
+                      image: "/images/thumbnails/dirtylaundry.jpeg",
+                      link: `/giveaways`,
+                      copy: "Show Us Your Dirty Laundry Contest"
+                    }
+                  ]
                 }
-              ]
             }
 
         ]
@@ -87,7 +90,8 @@ module.exports.clients = {
                         imageMobile: "/images/Green_Valley/Green_Valley_Landing_Pages_03.jpg"
                     }
                     ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/zep.jpeg",
                     link: "/zep",
@@ -98,7 +102,7 @@ module.exports.clients = {
                     link: `/rocco`,
                     copy: "Rocco DiSpirito - Website"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -112,9 +116,21 @@ module.exports.clients = {
                         timeLine: "1-3 days each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Social_Content_01.jpeg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Social_Content_01.jpeg"
+                    },
+                    {
+                      id: uuid(),
+                      reactiveLayout: true,
+                      task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
+                      role: "Art direction, Graphic design, illustration",
+                      timeLine: "1-3 days each",
+                      images: [
+                        "/images/Green_Valley/Green_Valley_Social_Content_06.gif",
+                        "/images/Green_Valley/Green_Valley_Social_Content_07.gif"
+                      ]
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/infographic.jpeg",
                     link: "/infographics",
@@ -125,7 +141,7 @@ module.exports.clients = {
                     link: `giveaways?active=${encodeURI("Welch's Fruit Snacks Contest")}`,
                     copy: "Welch’s Fruit Snacks Recipe Maker"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -141,7 +157,8 @@ module.exports.clients = {
                         imageMobile: "/images/Green_Valley/Green_Valley_Emails_01_mobile.jpeg"
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
                     link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
@@ -152,7 +169,7 @@ module.exports.clients = {
                     link: `zep?active=${encodeURI("Emails")}`,
                     copy: "Zep - Emails"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -184,7 +201,8 @@ module.exports.clients = {
                         imageMobile: "/images/Green_Valley/Green_Valley_ViralSweep_03.jpg"
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
                     link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
@@ -195,7 +213,7 @@ module.exports.clients = {
                     link: `zep?active=${encodeURI("Emails")}`,
                     copy: "Zep - Emails"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -213,27 +231,28 @@ module.exports.clients = {
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpg",
-                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpg",
+                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpeg",
+                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02.jpg",
-                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02 .jpg",
+                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02.jpeg",
+                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02.jpeg",
                     },
                     {
                         id: uuid(),
                         task: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
-                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpg",
-                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpg",
+                        imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpeg",
+                        imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpeg",
                     },
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/paypal.jpeg",
                     link: `/payPal`,
@@ -245,6 +264,7 @@ module.exports.clients = {
                     copy: "Green Valley - Landing Pages"
                   }
                 ]
+                }
             },
             {
                 id: uuid(),
@@ -260,7 +280,8 @@ module.exports.clients = {
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_mobile_01.jpeg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
                     link: `/pathwayGenomics?active=${encodeURI("Social Content")}`,
@@ -271,7 +292,7 @@ module.exports.clients = {
                     link: `/giveaways`,
                     copy: "Show Us Your Dirty Laundry Contest"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -290,7 +311,7 @@ module.exports.clients = {
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
                         imageDesktop: "/images/Zep/Zep_Website_01.jpeg",
-                        imageMobile: "/images/Zep/Zep_Website_01.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_01_mobile.jpg",
                     },
                     {
                         id: uuid(),
@@ -298,7 +319,7 @@ module.exports.clients = {
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
                         imageDesktop: "/images/Zep/Zep_Website_02.jpeg",
-                        imageMobile: "/images/Zep/Zep_Website_02.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_02_mobile.jpg",
                     },
                     {
                         id: uuid(),
@@ -306,10 +327,11 @@ module.exports.clients = {
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
                         imageDesktop: "/images/Zep/Zep_Website_03.jpeg",
-                        imageMobile: "/images/Zep/Zep_Website_03.jpeg",
+                        imageMobile: "/images/Zep/Zep_Website_03_mobile.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/rocco.jpeg",
                     link: "/rocco",
@@ -320,7 +342,7 @@ module.exports.clients = {
                     link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
                     copy: "National Geographic Sweepstakes"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -333,10 +355,11 @@ module.exports.clients = {
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
                         imageDesktop: "/images/Zep/Zep_Emails_01.jpeg",
-                        imageMobile: "/images/Zep/Zep_Emails_01.jpeg",
+                        imageMobile: "/images/Zep/Zep_Email_mobile.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
                     link: `/pathwayGenomics?active=${encodeURI("Emails")}`,
@@ -347,7 +370,7 @@ module.exports.clients = {
                     link: `greenValley?active=${encodeURI("Emails")}`,
                     copy: "Green Valley - Emails"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -366,7 +389,7 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/MintX/MintX_Website_01.jpeg",
-                        imageMobile: "/images/MintX/MintX_Website_01.jpeg",
+                        imageMobile: "/images/MintX/MintX_Website_01_mobile.jpg",
                     },
                   {
                     id: uuid(),
@@ -374,7 +397,7 @@ module.exports.clients = {
                     role: "Art direction, UI, Graphic design, Icons",
                     timeLine: "4 Weeks",
                     imageDesktop: "/images/MintX/MintX_Website_04.jpeg",
-                    imageMobile: "/images/MintX/MintX_Website_04.jpeg",
+                    imageMobile: "/images/MintX/MintX_Website_04_mobile.jpg",
                   },
                     {
                         id: uuid(),
@@ -382,7 +405,7 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/MintX/MintX_Website_02.jpeg",
-                        imageMobile: "/images/MintX/MintX_Website_02.jpeg",
+                        imageMobile: "/images/MintX/MintX_Website_02_mobile.jpg",
                     },
                   {
                     id: uuid(),
@@ -390,10 +413,11 @@ module.exports.clients = {
                     role: "Art direction, UI, Graphic design, Icons",
                     timeLine: "4 Weeks",
                     imageDesktop: "/images/MintX/MintX_Website_03.jpeg",
-                    imageMobile: "/images/MintX/MintX_Website_03.jpeg",
+                    imageMobile: "/images/MintX/MintX_Website_03_mobile.jpg",
                   }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/zep.jpeg",
                     link: "/zep",
@@ -404,7 +428,7 @@ module.exports.clients = {
                     link: `/platinumJewelry`,
                     copy: "Platinum Jewelry - Landing Pages"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -420,7 +444,8 @@ module.exports.clients = {
                         imageMobile: "/images/MintX/MintX_Social_Content_01_mobile.jpeg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
                     link: `/pathwayGenomics?active=${encodeURI("Social Content")}`,
@@ -431,7 +456,7 @@ module.exports.clients = {
                     link: `greenValley?active=${encodeURI("Social Content")}`,
                     copy: "Green Valley - Social Content"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -469,7 +494,8 @@ module.exports.clients = {
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_03.png",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/iconography.jpeg",
                     link: "/iconography",
@@ -480,7 +506,7 @@ module.exports.clients = {
                     link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
                     copy: "National Geographic Sweepstakes"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -493,10 +519,11 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/PayPal/PayPal_Social_Content_01.jpeg",
-                        imageMobile: "/images/PayPal/PayPal_Landing_Pages_01.jpeg",
+                        imageMobile: "/images/PayPal/PayPal_Social_Content_01.jpeg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/mintx.jpeg",
                     link: `/mintx?active=${encodeURI("Social Content")}`,
@@ -508,6 +535,7 @@ module.exports.clients = {
                     copy: "Iconography"
                   }
                 ]
+                }
             }
         ]
     },
@@ -537,7 +565,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Pathway_Genomics/Pathway_Genomics_Website_02.png",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/platinum.jpeg",
                     link: "/platinumJewelry",
@@ -548,7 +577,7 @@ module.exports.clients = {
                     link: `rocco`,
                     copy: "Rocco DiSpirito - Website"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -564,7 +593,8 @@ module.exports.clients = {
                         imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01_mobile.jpeg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/mintx.jpeg",
                     link: `/mintx?active=${encodeURI("Social Content")}`,
@@ -576,6 +606,7 @@ module.exports.clients = {
                     copy: "PayPal - Social Content"
                   }
                 ]
+                }
             },
             {
                 id: uuid(),
@@ -591,7 +622,8 @@ module.exports.clients = {
                         imageMobile: "/images/Pathway_Genomics/Pathway_Genomics_Emails_01_mobile.jpeg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/zep.jpeg",
                     link: `/zep`,
@@ -602,7 +634,7 @@ module.exports.clients = {
                     link: `greenValley?active=${encodeURI("Emails")}`,
                     copy: "Green Valley - Emails"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -624,7 +656,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Giveaways/Dirty_Laundry_PeopleTV_Contest.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/natgeo.jpeg",
                     link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
@@ -635,7 +668,7 @@ module.exports.clients = {
                     link: `/platinumJewelry`,
                     copy: "Platinum Jewelry - Landing Pages"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -648,7 +681,7 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_01_mobile.jpg",
                     },
                     {
                         id: uuid(),
@@ -656,7 +689,7 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_02_mobile.jpg",
                     },
                     {
                         id: uuid(),
@@ -664,10 +697,11 @@ module.exports.clients = {
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
-                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
+                        imageMobile:  "/images/Giveaways/National_Geographic_Sweepstakes_03_mobile.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/dirtylaundry.jpeg",
                     link: "/giveaways",
@@ -678,7 +712,7 @@ module.exports.clients = {
                     link: `/zep`,
                     copy: "Zep - Website"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -694,7 +728,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/infographic.jpeg",
                     link: "/infographics",
@@ -705,7 +740,7 @@ module.exports.clients = {
                     link: `greenValley?active=${encodeURI("Viral Sweep")}`,
                     copy: "Green Valley - ViralSweep"
                   }
-                ]
+                ]}
             },
             {
                 id: uuid(),
@@ -721,7 +756,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Giveaways/Power_of_3D_Sweepstakes.gif",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/infographic.jpeg",
                     link: "/infographics",
@@ -732,7 +768,7 @@ module.exports.clients = {
                     link: `giveaways?active=${encodeURI("National Geographic Sweepstakes")}`,
                     copy: "National Geographic Sweepstakes"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -778,7 +814,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Infographics/Infographics_04.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/paypal.jpeg",
                     link: "/paypal",
@@ -789,7 +826,7 @@ module.exports.clients = {
                     link: `greenValley`,
                     copy: "Green Valley - Landing Pages"
                   }
-                ]
+                ]}
             }
         ]
     },
@@ -811,7 +848,8 @@ module.exports.clients = {
                         imageMobile:  "/images/Iconography/Iconography.jpg",
                     }
                 ],
-                alsoInterested: [
+                alsoInterested: {
+                  links: [
                   {
                     image: "/images/thumbnails/paypal.jpeg",
                     link: "/paypal",
@@ -822,7 +860,7 @@ module.exports.clients = {
                     link: `/infographics`,
                     copy: "Infographics"
                   }
-                ]
+                ]}
             }
         ]
     }

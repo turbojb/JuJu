@@ -41,7 +41,9 @@ class SectionsWithPages {
     listenForClicks() {
         for(const section of this.sections) {
             $(`#link-for-${section.id}`).on("click", () => {
-                this.switchSection(section)
+              const refresh = window.location.protocol + "//" + window.location.host + window.location.pathname + '?active=' + encodeURI(section.name);
+              window.history.pushState({ path: refresh }, '', refresh);
+              this.switchSection(section)
             });
         }
     }

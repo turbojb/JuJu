@@ -26,25 +26,37 @@
             <div class="row">
                 <% count = 0 %>
                 <% for(const subSection of section.subSections) { %>
-                    <div class="col-12">
-                        <div class="pad-top"></div>
-                        <div class="project-image">
-                            <img src="<%= subSection.imageDesktop %>" class="img-fluid hide-mobile" />
-                            <img src="<%= subSection.imageMobile %>" class="img-fluid hide-desktop" />
-                        </div>
-                    </div>
+                    <% if(subSection.reactiveLayout) { %>
+                        <% for(const image of subSection.images) { %>
+                            <div class=" col-sm-6">
+                                <div class="pad-top"></div>
+                                <div class="project-image">
+                                    <img src="<%= image %>" class="img-fluid" />
+                                </div>
+                            </div>
+                        <% } %>
+                    <% } else { %>
+                            <div class="col-sm-12 col-12">
+                                <div class="pad-top"></div>
+                                <div class="project-image">
+                                    <img src="<%= subSection.imageDesktop %>" class="img-fluid hide-mobile" />
+                                    <img src="<%= subSection.imageMobile %>" class="img-fluid hide-desktop" />
+                                </div>
+                            </div>
+                    <% } %>
                     <% count = count + 1 %>
                 <% } %>
+
             </div>
         </div>
     </div>
 
     <% if(section.alsoInterested) { %>
-        <div class="also-interested text-center">
-            You May Also be interested in
+        <div class="also-interested text-center <%= section.alsoInterested.offsetCenter ? 'offset-centering' : '' %>">
+            You may also be interested in
 
             <div class="row">
-                <% for(interested of section.alsoInterested) { %>
+                <% for(interested of section.alsoInterested.links) { %>
                     <div class="col-6">
                         <div class="pad-top"></div>
                         <a href="<%= interested.link %>">
