@@ -324,7 +324,7 @@
 
 
 .project-image-wrapper {
-    height: 1000px;
+    max-height: 1000px;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 15px;

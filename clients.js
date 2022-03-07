@@ -331,6 +331,7 @@ module.exports.clients = {
                     }
                 ],
                 alsoInterested: {
+                  offsetCenter: true,
                   links: [
                   {
                     image: "/images/thumbnails/rocco.jpeg",
@@ -359,6 +360,7 @@ module.exports.clients = {
                     }
                 ],
                 alsoInterested: {
+                  offsetCenter: true,
                   links: [
                   {
                     image: "/images/thumbnails/pathway.jpeg",
@@ -417,6 +419,7 @@ module.exports.clients = {
                   }
                 ],
                 alsoInterested: {
+                  offsetCenter: true,
                   links: [
                   {
                     image: "/images/thumbnails/zep.jpeg",
@@ -701,6 +704,7 @@ module.exports.clients = {
                     }
                 ],
                 alsoInterested: {
+                  offsetCenter: true,
                   links: [
                   {
                     image: "/images/thumbnails/dirtylaundry.jpeg",
