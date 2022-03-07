@@ -322,6 +322,9 @@
     padding-left: 0px;
 }
 
+.full-width {
+    width: 100%;
+}
 
 .project-image-wrapper {
     max-height: 1000px;

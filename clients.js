@@ -124,8 +124,8 @@ module.exports.clients = {
                       role: "Art direction, Graphic design, illustration",
                       timeLine: "1-3 days each",
                       images: [
-                        "/images/Green_Valley/Green_Valley_Social_Content_06.gif",
-                        "/images/Green_Valley/Green_Valley_Social_Content_07.gif"
+                        "/images/Green_Valley/Green_Valley_Social_Content_06_smaller.gif",
+                        "/images/Green_Valley/Green_Valley_Social_Content_07_smaller.gif"
                       ]
                     }
                 ],
