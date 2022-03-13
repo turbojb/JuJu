@@ -188,7 +188,7 @@
 
 .info-container {
     width: 100%;
-    max-width: 568px;
+    max-width: 493px;
 }
 
 .info {
@@ -196,6 +196,20 @@
     font-family: openSansRegular;
     font-size: 12px;
     color: #1a1818;
+}
+
+.desktop-info {
+    width: 180px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.info-text-right {
+    text-align: right;
+}
+
+.info-text-left {
+    text-align: left;
 }
 
 .skill {
