@@ -10,6 +10,11 @@
         border-width: thin;
     }
 
+    .left-bar {
+        border-left: 1px solid #D2D2D2;
+        border-width: thin;
+    }
+
     .side-bar {
         display: block !important;
     }

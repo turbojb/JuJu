@@ -9,12 +9,14 @@
                 <div class="pinfo text-left">
                     <span class="bold">Role:</span> <%= subSection.role %>
                 </div>
-                <div class="pinfo side-bars">
+                <div class="pinfo <%= section.hideActive ? 'left-bar' : 'side-bars' %> ">
                     <span class="bold">Timeline:</span> <%= subSection.timeLine %>
                 </div>
-                <div class="pinfo">
-                    <span class="blue"><%= section.name %></span>
-                </div>
+                <% if(!section.hideActive) { %>
+                    <div class="pinfo">
+                        <span class="blue"><%= section.name %></span>
+                    </div>
+                <% } %>
             </div>
         </div>
 
