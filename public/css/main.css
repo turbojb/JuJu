@@ -318,6 +318,12 @@
     color: #0091AC;
 }
 
+.pinfo .blue-link {
+    font-size: 12px;
+    color: #0091AC;
+    text-decoration: underline;
+}
+
 .pinfo .pad-right {
     padding-right: 15px;
 }

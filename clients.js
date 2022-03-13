@@ -16,6 +16,7 @@ module.exports.clients = {
                         task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
                         role: "UI, graphic design",
                         timeLine: "4 Weeks",
+                        link: "https://roccodispirito.com",
                         imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg",
                         imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_01_mobile.jpg"
                     },
@@ -24,6 +25,7 @@ module.exports.clients = {
                     task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
                     role: "UI, graphic design",
                     timeLine: "4 Weeks",
+                    link: "https://roccodispirito.com",
                     imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02.jpeg",
                     imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_02_mobile.jpg"
                   },
@@ -32,6 +34,7 @@ module.exports.clients = {
                     task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
                     role: "UI, graphic design",
                     timeLine: "4 Weeks",
+                    link: "https://roccodispirito.com",
                     imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03.jpeg",
                     imageMobile: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website_03_mobile.jpg"
                   }
@@ -70,6 +73,7 @@ module.exports.clients = {
                         task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
                         role: "UX/UI, design",
                         timeLine: "3 Weeks",
+                        link: "https://welcometogreenvalley.com/explore",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Landing_Pages_01.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Landing_Pages_01.jpg"
                     },
@@ -78,6 +82,7 @@ module.exports.clients = {
                         task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
                         role: "UX/UI, design",
                         timeLine: "1 week",
+                        link: "https://welcometogreenvalley.com/blog/easy-meal-preps-to-start-the-new-year-right",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Landing_Pages_02.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Landing_Pages_02.jpg"
                     },
@@ -86,6 +91,7 @@ module.exports.clients = {
                         task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
                         role: "UX/UI, design",
                         timeLine: "1 week",
+                        link: "https://welcometogreenvalley.com/product-locator",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Landing_Pages_03.jpg",
                         imageMobile: "/images/Green_Valley/Green_Valley_Landing_Pages_03.jpg"
                     }
@@ -108,6 +114,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Social Content",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -147,6 +154,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Emails",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -175,6 +183,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Viral Sweep",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -231,6 +240,7 @@ module.exports.clients = {
                         task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
+                        link: "http://platinumjewelry.com/metal-matters",
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpeg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_01.jpeg",
                     },
@@ -239,6 +249,7 @@ module.exports.clients = {
                         task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
+                        link: "https://platinumjewelry.com/why-platinum/all-about-platinum",
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02.jpeg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_02.jpeg",
                     },
@@ -247,6 +258,7 @@ module.exports.clients = {
                         task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
                         role: "Art direction, UI",
                         timeLine: "2 Weeks",
+                        link: "https://platinumjewelry.com/buying-tips/buy-engagement-ring-online",
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpeg",
                         imageMobile: "/images/Platinum_Jewelry/Platinum_Jewelry_Landing_Pages_03.jpeg",
                     },
@@ -270,6 +282,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Social Content",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -310,6 +323,7 @@ module.exports.clients = {
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
+                        link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_01.jpeg",
                         imageMobile: "/images/Zep/Zep_Website_01_mobile.jpg",
                     },
@@ -318,6 +332,7 @@ module.exports.clients = {
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
+                        link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_02.jpeg",
                         imageMobile: "/images/Zep/Zep_Website_02_mobile.jpg",
                     },
@@ -326,6 +341,7 @@ module.exports.clients = {
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
                         role: "UI, Graphic Design",
                         timeLine: "2 Weeks",
+                        link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_03.jpeg",
                         imageMobile: "/images/Zep/Zep_Website_03_mobile.jpg",
                     }
@@ -349,6 +365,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Emails",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -390,6 +407,7 @@ module.exports.clients = {
                         task: "Mint-X’s sells patented rodent repellent garbage bags to keep foraging animals out of trash. I was responsible for designing the UI graphics of the website. ",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
+                        link: "https://mint-x.com",
                         imageDesktop: "/images/MintX/MintX_Website_01.jpeg",
                         imageMobile: "/images/MintX/MintX_Website_01_mobile.jpg",
                     },
@@ -398,6 +416,7 @@ module.exports.clients = {
                     task: "Mint-X’s sells patented rodent repellent garbage bags to keep foraging animals out of trash. I was responsible for designing the UI graphics of the website. ",
                     role: "Art direction, UI, Graphic design, Icons",
                     timeLine: "4 Weeks",
+                    link: "https://mint-x.com",
                     imageDesktop: "/images/MintX/MintX_Website_04.jpeg",
                     imageMobile: "/images/MintX/MintX_Website_04_mobile.jpg",
                   },
@@ -406,6 +425,7 @@ module.exports.clients = {
                         task: "Mint-X’s sells patented rodent repellent garbage bags to keep foraging animals out of trash. I was responsible for designing the UI graphics of the website. ",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
+                        link: "https://mint-x.com",
                         imageDesktop: "/images/MintX/MintX_Website_02.jpeg",
                         imageMobile: "/images/MintX/MintX_Website_02_mobile.jpg",
                     },
@@ -414,6 +434,7 @@ module.exports.clients = {
                     task: "Mint-X’s sells patented rodent repellent garbage bags to keep foraging animals out of trash. I was responsible for designing the UI graphics of the website. ",
                     role: "Art direction, UI, Graphic design, Icons",
                     timeLine: "4 Weeks",
+                    link: "https://mint-x.com",
                     imageDesktop: "/images/MintX/MintX_Website_03.jpeg",
                     imageMobile: "/images/MintX/MintX_Website_03_mobile.jpg",
                   }
@@ -437,6 +458,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Social Content",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -477,6 +499,7 @@ module.exports.clients = {
                         task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
+                        link: "https://www.paypal.com/us/brc/article/smb-ecommerce-growth-infographic",
                         imageDesktop: "/images/PayPal/PayPal_Landing_Pages_01.jpg",
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_01.jpg",
                     },
@@ -485,6 +508,7 @@ module.exports.clients = {
                         task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
+                        link: "https://paypal.com/us/brc/article/consumer-financing-for-fashion-retailers",
                         imageDesktop: "/images/PayPal/PayPal_Landing_Pages_02.png",
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_02.png",
                     },
@@ -493,6 +517,7 @@ module.exports.clients = {
                         task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
                         role: "Art direction, UI, Graphic design, Icons",
                         timeLine: "4 Weeks",
+                        link: "https://www.paypal.com/us/brc/article/5-website-updates-that-can-impact-your-sales",
                         imageDesktop: "/images/PayPal/PayPal_Landing_Pages_03.png",
                         imageMobile: "/images/PayPal/PayPal_Landing_Pages_03.png",
                     }
@@ -515,6 +540,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Social Content",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -587,6 +613,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Social Content",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -616,6 +643,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Emails",
                 active: false,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -790,6 +818,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Infographics",
                 active: true,
+              hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
@@ -848,6 +877,7 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Infographics",
                 active: true,
+              hideActive: true,
                 subSections: [
                     {
                         id: uuid(),

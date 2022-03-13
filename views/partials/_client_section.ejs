@@ -14,7 +14,11 @@
                 </div>
                 <% if(!section.hideActive) { %>
                     <div class="pinfo">
-                        <span class="blue"><%= section.name %></span>
+                        <% if(subSection.link) { %>
+                            <a href="<%= subSection.link %>" class="blue-link"><%= section.name %></a>
+                        <% } else { %>
+                            <span class="blue"><%= section.name %></span>
+                        <% } %>
                     </div>
                 <% } %>
             </div>
