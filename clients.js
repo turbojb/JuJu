@@ -181,7 +181,7 @@ module.exports.clients = {
             },
             {
                 id: uuid(),
-                name: "Viral Sweep",
+                name: "ViralSweep",
                 active: false,
                 hideActive: true,
                 subSections: [
