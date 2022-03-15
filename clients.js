@@ -662,7 +662,7 @@ module.exports.clients = {
                     copy: "Zep - Website"
                   },
                   {
-                    image: "/images/thumbnails/greenValley1.jpeg",
+                    image: "/images/thumbnails/greenvalley.jpeg",
                     link: `greenValley?active=${encodeURI("Emails")}`,
                     copy: "Green Valley - Emails"
                   }
