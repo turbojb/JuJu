@@ -46,6 +46,12 @@ app.post('/login', (req, res) => {
     }
 });
 
+app.post('/logout', (req, res) => {
+  res.clearCookie("JuJuSession")
+  res.clearCookie("JuJuSession.sig")
+  res.redirect("/")
+});
+
 for(let client in clients) {
     app.get(`/${client}`, (req, res) => {
         let projectClient = clients[client]
