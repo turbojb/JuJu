@@ -179,11 +179,14 @@
 .name-image {
     width: 100%;
     max-width: 200px;
-
 }
 
 .reduce-opacity {
     opacity: 0.3;
+}
+
+.reduce-opacity:hover {
+    opacity: 1;
 }
 
 .info-container {
@@ -285,7 +288,7 @@
     font-size: 12px;
     text-decoration: none;
     color: #949494;
-    padding-top: 7px;
+    padding-top: 12px;
 }
 
 .links .active {

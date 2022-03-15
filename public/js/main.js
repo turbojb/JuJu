@@ -79,8 +79,18 @@ function login() {
     });
 }
 
+function eraseCookie(name) {
+  document.cookie = name+'=; Max-Age=-99999999;';
+}
+
 $(document).ready(() => {
   $("#password").on("keypress", e => {
     if(e.which === 13) $("#submit-pw").click()
+  });
+
+
+  $("#go-back-home").on("click", () => {
+    document.cookie = "cookiename= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+    window.location = "/"
   });
 });

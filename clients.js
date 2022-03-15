@@ -14,7 +14,7 @@ module.exports.clients = {
                     {
                         id: uuid(),
                         task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
-                        role: "Art Direction, UI, graphic design",
+                        role: "Art Direction, UI, Graphic design",
                         timeLine: "5 Weeks",
                         link: "https://roccodispirito.com",
                         imageDesktop: "/images/Rocco_DiSpirito/Rocco_DiSpirito_Website01.jpeg",
@@ -321,7 +321,7 @@ module.exports.clients = {
                     {
                         id: uuid(),
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
-                        role: "Art direction, UI, Graphic Design",
+                        role: "Art direction, UI, Graphic design",
                         timeLine: "2 Months",
                         link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_01.jpeg",
@@ -330,7 +330,7 @@ module.exports.clients = {
                     {
                         id: uuid(),
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
-                        role: "Art direction, UI, Graphic Design",
+                        role: "Art direction, UI, Graphic design",
                         timeLine: "2 Months",
                         link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_02.jpeg",
@@ -339,7 +339,7 @@ module.exports.clients = {
                     {
                         id: uuid(),
                         task: "Zep is a large distributor of maintenance and cleaning solutions for retail, food & beverage, industrial & institutional, and vehicle care customers. The company had many domains and they were looking to combine three of their websites into one. Their main focus was e-commerce and combining additional information about their company and wholesale/industrial products. A senior designer and I designed the webpages (from template to customized layouts) to meet Zep’s needs. In the end, the client was pleased! ",
-                        role: "Art direction, UI, Graphic Design",
+                        role: "Art direction, UI, Graphic design",
                         timeLine: "2 Months",
                         link: "https://zep.com",
                         imageDesktop: "/images/Zep/Zep_Website_03.jpeg",
@@ -671,14 +671,42 @@ module.exports.clients = {
         ]
     },
     giveaways: {
-        homePageImage: "/images/Private_homepage/Giveaways.jpg",
+        homePageImage: "/images/Private_homepage/Giveaways.jpeg",
         fullName: "Giveaway Landing Pages",
         sections: [
-
-            {
+          {
+            id: uuid(),
+            name: "Welch's Fruit Snacks Contest",
+            active: true,
+            hideActive: true,
+            subSections: [
+              {
+                id: uuid(),
+                task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win.",
+                role: "Art direction, UX/UI, Logo design, Graphic design, Illustration, Infographic",
+                timeLine: "5 Weeks",
+                imageDesktop: "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
+                imageMobile:  "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
+              }
+            ],
+            alsoInterested: {
+              links: [
+                {
+                  image: "/images/thumbnails/infographic.jpeg",
+                  link: "/infographics",
+                  copy: "Infographics"
+                },
+                {
+                  image: "/images/thumbnails/greenvalley.jpeg",
+                  link: `greenValley?active=${encodeURI("Viral Sweep")}`,
+                  copy: "Green Valley - ViralSweep"
+                }
+              ]}
+          },
+          {
                 id: uuid(),
                 name: "National Geographic Sweepstakes",
-                active: true,
+                active: false,
                 hideActive: true,
                 subSections: [
                     {
@@ -721,35 +749,7 @@ module.exports.clients = {
                   }
                 ]}
             },
-            {
-                id: uuid(),
-                name: "Welch's Fruit Snacks Contest",
-                active: false,
-              hideActive: true,
-                subSections: [
-                    {
-                        id: uuid(),
-                        task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win.",
-                        role: "Art direction, UX/UI, Logo design, Graphic design, Illustration, Infographic",
-                        timeLine: "5 Weeks",
-                        imageDesktop: "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
-                        imageMobile:  "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
-                    }
-                ],
-                alsoInterested: {
-                  links: [
-                  {
-                    image: "/images/thumbnails/infographic.jpeg",
-                    link: "/infographics",
-                    copy: "Infographics"
-                  },
-                  {
-                    image: "/images/thumbnails/greenvalley.jpeg",
-                    link: `greenValley?active=${encodeURI("Viral Sweep")}`,
-                    copy: "Green Valley - ViralSweep"
-                  }
-                ]}
-            },
+
             {
                 id: uuid(),
                 name: "Sour Jacks Sweepstakes",
