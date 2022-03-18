@@ -4,10 +4,8 @@
 
 ## Development
 
-###prerequisites 
-
 you will need [NodeJs](https://nodejs.dev/) installed
 
-run development server
+run development server in the console
 
 `npm run dev`
