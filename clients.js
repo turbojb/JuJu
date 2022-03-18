@@ -13,7 +13,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
+                        task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods crafted by an award winning chef. I was tasked to design their website and the client was very pleased with the final product.",
                         role: "Art Direction, UI, Graphic design",
                         timeLine: "5 Weeks",
                         link: "https://roccodispirito.com",
@@ -22,7 +22,7 @@ module.exports.clients = {
                     },
                   {
                     id: uuid(),
-                    task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
+                    task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods crafted by an award winning chef. I was tasked to design their website and the client was very pleased with the final product.",
                     role: "Art Direction, UI, graphic design",
                     timeLine: "5 Weeks",
                     link: "https://roccodispirito.com",
@@ -31,7 +31,7 @@ module.exports.clients = {
                   },
                   {
                     id: uuid(),
-                    task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods sold by an award winning chef. I designed the website, including the graphics and the client was very pleased.",
+                    task: "Rocco DiSpirito is an e-commerce website that sells healthy protein goods crafted by an award winning chef. I was tasked to design their website and the client was very pleased with the final product.",
                     role: "Art Direction, UI, graphic design",
                     timeLine: "5 Weeks",
                     link: "https://roccodispirito.com",
@@ -70,7 +70,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
+                        task: "Green Valley grows and sells organic beans, corn, peas, and pumpkin products. I designed several pages of their website including; the product locator, the blog homepage, and monthly blog posts. ",
                         role: "UX/UI design",
                         timeLine: "3 Weeks",
                         link: "https://welcometogreenvalley.com/explore",
@@ -79,7 +79,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
+                        task: "Green Valley grows and sells organic beans, corn, peas, and pumpkin products. I designed several pages of their website including; the product locator, the blog homepage, and monthly blog posts. ",
                         role: "UX/UI design",
                         timeLine: "3 weeks",
                         link: "https://welcometogreenvalley.com/blog/easy-meal-preps-to-start-the-new-year-right",
@@ -88,7 +88,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Green Valley sells organic bean and vegetable can/pouch goods. They also provide recipes that can include their products into the meal. I’ve designed several web pages such as when they expand their products to retail stores or product locator pages. I also designed the blog homepage and also designed the monthly blog posts.  ",
+                        task: "Green Valley grows and sells organic beans, corn, peas, and pumpkin products. I designed several pages of their website including; the product locator, the blog homepage, and monthly blog posts.  ",
                         role: "UX/UI design",
                         timeLine: "3 weeks",
                         link: "https://welcometogreenvalley.com/product-locator",
@@ -118,7 +118,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I’m the sole designer on the social media account and handle between 1-5 posts weekly. I’ve done the illustrations, small animated GIF’s and composed Green Valley’s products on lifestyle photos. ",
+                        task: "I am the sole designer for the Green Valley social media accounts. I design 1-5 social posts per week; including illustrations, animated GIFs and more to keep their feed fresh and relevant.",
                         role: "Art direction, Graphic design, Illustration",
                         timeLine: "1-3 days each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Social_Content_01.jpeg",
@@ -127,7 +127,7 @@ module.exports.clients = {
                     {
                       id: uuid(),
                       reactiveLayout: true,
-                      task: "I’m the sole designer on the social media account and handle between 1-5 posts weekly. I’ve done the illustrations, small animated GIF’s and composed Green Valley’s products on lifestyle photos. ",
+                      task: "I am the sole designer for the Green Valley social media accounts. I design 1-5 social posts per week; including illustrations, animated GIFs and more to keep their feed fresh and relevant. ",
                       role: "Art direction, Graphic design, Illustration",
                       timeLine: "1-3 days each",
                       images: [
@@ -158,7 +158,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Green Valley sends out emails once every 2 or 3 months, where I design them. ",
+                        task: "I am responsible for designing the Green Valley monthly emails that promote different products and recipes to consumers.  ",
                         role: "Art direction, Graphic design, Illustration",
                         timeLine: "1-3 days each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_Emails_01.jpeg",
@@ -181,13 +181,13 @@ module.exports.clients = {
             },
             {
                 id: uuid(),
-                name: "ViralSweep",
+                name: "Sweepstakes",
                 active: false,
                 hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I illustrate the backgrounds and compose the images of the prizes for Green Valley’s viral sweepstakes. ",
+                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”.",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_01.jpg",
@@ -195,7 +195,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I illustrate the backgrounds and compose the images of the prizes for Green Valley’s viral sweepstakes. ",
+                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”.",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_02.jpg",
@@ -203,7 +203,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I illustrate the backgrounds and compose the images of the prizes for Green Valley’s viral sweepstakes. ",
+                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”. ",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_03.jpg",
@@ -237,7 +237,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
+                        task: "Platinum Guild International is an educational resource for everything pertaining to platinum jewelry. I designed and illustrated their blog pages to intrigue potential platinum customers. I collaborated with the copywriters and the developers to achieve the flow and function of these pages.",
                         role: "Art direction, UI, Graphic design, Illustration",
                         timeLine: "2 Weeks",
                         link: "http://platinumjewelry.com/metal-matters",
@@ -246,7 +246,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
+                        task: "Platinum Guild International is an educational resource for everything pertaining to platinum jewelry. I designed and illustrated their blog pages to intrigue potential platinum customers. I collaborated with the copywriters and the developers to achieve the flow and function of these pages. ",
                         role: "Art direction, UI, Graphic design, Illustration",
                         timeLine: "2 Weeks",
                         link: "https://platinumjewelry.com/why-platinum/all-about-platinum",
@@ -255,7 +255,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Platinum Guild International is a marketing organization developing the market for platinum jewelry. I have designed and illustrated blog pages to intrigue potential customers who are interested in platinum rings. I collaborated with copywriters and developers to achieve the flow of these pages. ",
+                        task: "Platinum Guild International is an educational resource for everything pertaining to platinum jewelry. I designed and illustrated their blog pages to intrigue potential platinum customers. I collaborated with the copywriters and the developers to achieve the flow and function of these pages.",
                         role: "Art direction, UI, Graphic design, Illustration",
                         timeLine: "2 Weeks",
                         link: "https://platinumjewelry.com/buying-tips/buy-engagement-ring-online",
@@ -286,7 +286,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "The DX team holds seasonal photoshoots for PGI’s social media platforms and media ads. In post-production, the design team and I edit the images with skin and jewelry retouching. I also illustrated (on Photoshop) posts of an elegant wedding theme with rings.",
+                        task: "The DX design team holds seasonal photoshoots for PGI’s social media platforms and ads. In post-production, the design team and I are responsible for retouching all of the photographs. I also illustrated social posts portraying an elegant wedding theme featuring various platinum rings (shown below).",
                         role: "Art direction, Illustration, Retouching",
                         timeLine: "2-4 days each",
                         imageDesktop: "/images/Platinum_Jewelry/Platinum_Jewelry_Social_Content_01.jpeg",
@@ -369,7 +369,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Since their website was going through a revamp, Zep asked to redesign their welcome and abandonment emails. ",
+                        task: "To match their new website, Zep also requested a redesign of their welcome and abandonment emails. ",
                         role: "Art direction, UI, Graphic design",
                         timeLine: "2-3 days each",
                         imageDesktop: "/images/Zep/Zep_Emails_01.jpeg",
@@ -496,7 +496,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
+                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and on-brand. ",
                         role: "Art direction, UI, Infographics",
                         timeLine: "2-3 weeks each",
                         link: "https://www.paypal.com/us/brc/article/smb-ecommerce-growth-infographic",
@@ -505,7 +505,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
+                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and on-brand. ",
                         role: "Art direction, UI, Infographics",
                         timeLine: "2-3 weeks each",
                         link: "https://paypal.com/us/brc/article/consumer-financing-for-fashion-retailers",
@@ -514,7 +514,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and onbrand. ",
+                        task: "I produced imagery, designed graphics and infographics for PayPal Credit article pages. I worked closely with a copywriter to ensure the flow of the message was clear and on-brand. ",
                         role: "Art direction, UI, Infographics",
                         timeLine: "2-3 weeks each",
                         link: "https://www.paypal.com/us/brc/article/5-website-updates-that-can-impact-your-sales",
@@ -544,7 +544,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "When the article pages were approved, PayPal asked for imagery for their ads or social content. It was a mixture of selective imagery to illustrations. ",
+                        task: "PayPal also requested refreshed imagery for their ads and social content. I designed their ads to contain a mixture of stock imagery and illustrations. ",
                         role: "Art direction, UI, Infographics, Retouching",
                         timeLine: "1-4 days each",
                         imageDesktop: "/images/PayPal/PayPal_Social_Content_01.jpeg",
@@ -617,7 +617,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I designed the social posts for their product lines. I ensure to distinguish two product lines by the usage of colors and graphics.",
+                        task: "I was responsible for designing the content for Pathway Genomics social media pages. I distinguished the two product lines by using different colors and graphics.",
                         role: "Art direction, Graphic design, Illustration",
                         timeLine: "1-4 days each",
                         imageDesktop: "/images/Pathway_Genomics/Pathway_Genomics_Social_Content_01.jpeg",
@@ -682,7 +682,7 @@ module.exports.clients = {
             subSections: [
               {
                 id: uuid(),
-                task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win.",
+                task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages. ",
                 role: "Art direction, UX/UI, Logo design, Graphic design, Illustration, Infographic",
                 timeLine: "5 Weeks",
                 imageDesktop: "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
@@ -711,7 +711,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win. ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages. ",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
@@ -719,7 +719,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win. ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.  ",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
@@ -727,7 +727,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win. ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.  ",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
@@ -822,7 +822,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Below are various iconography styles for different industries from food to technology. ",
+                        task: "I created infographic designs and illustrations for clients such as Mastercard and Welch’s Fruit Snacks. ",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_01.jpg",
@@ -830,7 +830,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Below are various iconography styles for different industries from food to technology. ",
+                        task: "I created infographic designs and illustrations for clients such as Mastercard and Welch’s Fruit Snacks. ",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_02.jpg",
@@ -838,7 +838,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Below are various iconography styles for different industries from food to technology. ",
+                        task: "I created infographic designs and illustrations for clients such as Mastercard and Welch’s Fruit Snacks.",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_03.jpg",
@@ -846,7 +846,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Below are various iconography styles for different industries from food to technology. ",
+                        task: "I created infographic designs and illustrations for clients such as Mastercard and Welch’s Fruit Snacks. ",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_04.jpg",
@@ -877,11 +877,11 @@ module.exports.clients = {
                 id: uuid(),
                 name: "Iconography",
                 active: true,
-              hideActive: true,
+                hideActive: true,
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Below are various infographic designs and illustrations for clients such as Mastercard and Welsh’s.",
+                        task: "Below are various iconography styles for different industries ranging from food to technology.",
                         role: "Art direction, Icons",
                         timeLine: "3-4 Weeks",
                         imageDesktop: "/images/Iconography/Iconography.jpg",
