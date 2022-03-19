@@ -187,7 +187,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”.",
+                        task: "I designed the landing pages, illustrations, and prize images for multiple sweepstakes projects.",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_01.jpg",
@@ -195,7 +195,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”.",
+                        task: "I designed the landing pages, illustrations, and prize images for multiple sweepstakes projects.",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_02.jpg",
@@ -203,7 +203,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I created the landing page, illustrations, and prizes for the Green Valley “Sweet Summer Sweepstakes”. ",
+                        task: "I designed the landing pages, illustrations, and prize images for multiple sweepstakes projects.",
                         role: "Art direction, Logo design, Graphic design, Illustration",
                         timeLine: "1-2 weeks each",
                         imageDesktop: "/images/Green_Valley/Green_Valley_ViralSweep_03.jpg",
