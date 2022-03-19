@@ -682,7 +682,7 @@ module.exports.clients = {
             subSections: [
               {
                 id: uuid(),
-                task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages. ",
+                task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages",
                 role: "Art direction, UX/UI, Logo design, Graphic design, Illustration, Infographic",
                 timeLine: "5 Weeks",
                 imageDesktop: "/images/Giveaways/Welchs_Fruit_Snacks_Contest.gif",
@@ -711,7 +711,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages. ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_01.jpeg",
@@ -719,7 +719,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.  ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_02.jpeg",
@@ -727,7 +727,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.  ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.",
                         role: "Art direction, UX/UI, Graphic design",
                         timeLine: "2-3 weeks",
                         imageDesktop: "/images/Giveaways/National_Geographic_Sweepstakes_03.jpeg",
@@ -758,7 +758,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win. ",
+                        task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.",
                         role: "Art direction, UX/UI, Logo design, Graphic design, Illustration",
                         timeLine: "5 weeks",
                         imageDesktop: "/images/Giveaways/Power_of_3D_Sweepstakes.gif",
@@ -787,7 +787,7 @@ module.exports.clients = {
             subSections: [
               {
                 id: uuid(),
-                task: "Throughout the years in DXagency, I’ve designed different landing pages for sweepstakes. I handled the illustrations and worked with programmers to develop the gamification or other interactions to enter to win.",
+                task: "Throughout the years at DXagency, I have designed many different sweepstakes landing pages for various clients. I handled the illustrations and design while working with the programmers to develop, gamify, and animate the pages.",
                 role: "Art direction, UX/UI, Logo design, Graphic design",
                 timeLine: "4 Weeks",
                 imageDesktop: "/images/Giveaways/Dirty_Laundry_PeopleTV_Contest.jpg",
