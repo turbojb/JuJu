@@ -822,7 +822,7 @@ module.exports.clients = {
                 subSections: [
                     {
                         id: uuid(),
-                        task: "I created infographic designs and illustrations for clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
+                        task: "I created infographic designs and illustrations for many clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_01.jpg",
@@ -830,7 +830,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I created infographic designs and illustrations for clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
+                        task: "I created infographic designs and illustrations for many clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_02.jpg",
@@ -838,7 +838,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I created infographic designs and illustrations for clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
+                        task: "I created infographic designs and illustrations for many clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_03.jpg",
@@ -846,7 +846,7 @@ module.exports.clients = {
                     },
                     {
                         id: uuid(),
-                        task: "I created infographic designs and illustrations for clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
+                        task: "I created infographic designs and illustrations for many clients such as Mastercard, Welch’s Fruit Snacks and Schär.",
                         role: "Art direction, Infographics",
                         timeLine: "3-4 weeks each",
                         imageDesktop: "/images/Infographics/Infographics_04.jpg",
