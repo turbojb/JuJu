@@ -79,17 +79,13 @@ function login() {
     });
 }
 
-function eraseCookie(name) {
-  document.cookie = name+'=; Max-Age=-99999999;';
-}
-
 $(document).ready(() => {
   $("#password").on("keypress", e => {
     if(e.which === 13) $("#submit-pw").click()
   });
 
 
-  $("#go-back-home").on("click", () => {
+  $(".go-back-home").on("click", () => {
     $("#logout").submit()
   });
 });
