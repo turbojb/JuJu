@@ -49,7 +49,7 @@ module.exports.clients = {
                     },
                     {
                       image: "/images/thumbnails/dirtylaundry.jpeg",
-                      link: `/giveaways`,
+                      link: `/giveaways?active=Dirty%20Laundry%20-%20PeopleTV%20Contest`,
                       copy: "Show Us Your Dirty Laundry Contest"
                     }
                   ]
