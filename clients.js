@@ -671,7 +671,7 @@ module.exports.clients = {
         ]
     },
     giveaways: {
-        homePageImage: "/images/Private_homepage/Giveaways.jpeg",
+        homePageImage: "/images/Private_homepage/welchs.jpg",
         fullName: "Giveaway Landing Pages",
         sections: [
           {
